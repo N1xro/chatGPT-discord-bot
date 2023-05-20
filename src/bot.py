@@ -326,6 +326,6 @@ gpt-engine: {chat_engine_status}
             else:
                 logger.exception("replying_all_discord_channel_id not found, please use the commnad `/replyall` again.")
 
-    TOKEN = os.getenv("DISCORD_BOT_TOKEN")
+    TOKEN = os.getenv("MTA5NTY3NDIzNjUxMDY3MDk3OQ.GR793D.GNYsYYCEZuFNa05kgSPP_ibpbK77SQJoonsWJo")
 
     client.run(TOKEN)
